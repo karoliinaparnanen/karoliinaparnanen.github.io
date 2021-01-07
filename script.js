@@ -21,7 +21,7 @@ function onScroll() {
       const scale = zoomFactor < 1 ? 1 - zoomFactor : 0;
       const blur = Math.abs(zoomFactor) * 4;
       const opacity = 1 - Math.abs(scrollY - baseZoomPx) / viewportHeight;
-      const pointerEvents = scale > 1.5 || scale < .5 ? 'none' : 'auto';
+      const pointerEvents = scale > 1.5 || scale < .5 ? 'none' : 'auto'; // maybe something like this for opacity
 
       element.style.transform = `scale(${scale > 1 ? scale * 1 : scale })`;
 

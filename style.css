@@ -48,6 +48,9 @@ body {
   text-transform: uppercase;
 }
 
+.email {
+}
+
 .sticky-heading {
   width: 100%;
   text-transform: uppercase;
@@ -89,3 +92,5 @@ img {
   border-radius: 50%;
   display: inline-block;
 }
+
+/*ANIMATIONS*/
