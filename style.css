@@ -1,7 +1,10 @@
 body {
   background-color: black;
   overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   cursor: zoom-in;
+  font-size: 16px;
 }
 
 ::-webkit-scrollbar {
@@ -55,6 +58,7 @@ display: none;
 .text {
   cursor: ns-resize;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
   box-sizing: content-box; /* So the width will be 100% + 17px */
   max-width: 90vw;
