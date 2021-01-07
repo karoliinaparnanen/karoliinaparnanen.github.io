@@ -48,6 +48,16 @@ body {
   text-transform: uppercase;
 }
 
+.quote {
+  font-size: 3em;
+  font-style: italic;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 15px;
+}
+
 .email {
 }
 
